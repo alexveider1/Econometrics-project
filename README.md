@@ -1,1 +1,18 @@
-# HSE FES Econometrics-2 (advanced course) project
+# НИУ ВШЭ ФЭН Эконометрика-2 (углубленный курс)
+
+Проект основан на статье Е. Коссовой и М. Косоруковой: ["Оценивание влияния высшего образования на здоровье: сравнение многомерной рекурсивной пробит-модели и мэтчинга"](/data//article.pdf)
+
+Структура проекта:
+- `assets` $-$ папка с иллюстрациями
+- `data` $-$ данные, использовавшиеся в исследовании (как сырые, так и обработанные)
+- `data_preparation` $-$ папка с скриптами для преобразования (etl) и исследования (eda) данных
+- `double_ml` $-$ папка с выявлением причинно-следственной связи с помощью метода [`DoubleML`](https://github.com/DoubleML/doubleml-for-py)
+- `matching` $-$ папка с выявлением причинно-следственной связи с помощью многомерной рекурсивной пробит-модели
+- `probit` $-$ папка с выявлением причинно-следственной связи с помощью двух реализаций мэтчинга: Propensity Score Matching и Mahalanobis Distance 
+- `text.tex` и `text.pdf` $-$ текст работы
+- `pyproject.toml`, `.python-version` и `uv.lock` $-$ необходимые зависимости
+- `presentation.pptx` $-$ презентация проекта
+
+Лицензия:
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
