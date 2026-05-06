@@ -116,10 +116,13 @@ Control Function Approach для устранения **эндогенности
 │   └── double_ml.ipynb             # DoubleMLIRM: LDA / RF / XGB, ATE + ATET
 │
 ├── matching/                  
-│   └── matching.ipynb              # PSM + Mahalanobis + Firth logit
+│   ├── matching.ipynb              # PSM + Mahalanobis + Firth logit
+|   └── matching_description.txt    # Описание мэтчинга
 │
 ├── probit/                     
-│   └── probit.ipynb                # Control Function Approach, 34 модели
+│   ├── probit.ipynb                # Control Function Approach, 34 модели
+|   ├── probit_dataset.csv          # Специальный датасет для пробита
+|   └── probit_text.txt             # Описание пробита
 │
 ├── text.tex                    # Текст в LaTeX
 ├── text.pdf                    # Текст в pdf
